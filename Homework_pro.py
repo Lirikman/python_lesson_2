@@ -1,18 +1,18 @@
 #6. Найти сумму цифр числа.
-#number = int(input())
-#sum = 0
-#while number > 0:
-#    sum += number % 10
-#    number = number // 10
-#print(sum)
+number = int(input())
+sum = 0
+while number > 0:
+    sum += number % 10
+    number = number // 10
+print(sum)
 
 #7. Найти произведение цифр числа.
-#number = int(input())
-#product = 1
-#while number > 0:
-#    product *= number % 10
-#    number = number // 10
-#print(product)
+number = int(input())
+product = 1
+while number > 0:
+    product *= number % 10
+    number = number // 10
+print(product)
 
 #8. Дать ответ на вопрос: есть ли среди цифр числа 5?
 number = int(input())

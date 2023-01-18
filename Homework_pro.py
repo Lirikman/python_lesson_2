@@ -1,5 +1,5 @@
 #6. Найти сумму цифр числа.
-number = int(input())
+number = int(input('Enter any number '))
 sum = 0
 while number > 0:
     sum += number % 10
@@ -7,7 +7,7 @@ while number > 0:
 print(sum)
 
 #7. Найти произведение цифр числа.
-number = int(input())
+number = int(input('Enter any number '))
 product = 1
 while number > 0:
     product *= number % 10
@@ -15,7 +15,7 @@ while number > 0:
 print(product)
 
 #8. Дать ответ на вопрос: есть ли среди цифр числа 5?
-number = int(input())
+number = int(input('Enter any number '))
 count = 0
 while number > 0:
     num_temp = number % 10
@@ -31,7 +31,7 @@ else:
     print('No')
 
 #9. Найти максимальную цифру в числе
-number = int(input())
+number = int(input('Enter any number '))
 max_num = 0
 
 while number > 0:
@@ -45,7 +45,7 @@ print(max_num)
 
 #10. Найти количество цифр 5 в числе
 
-number = int(input())
+number = int(input('Enter any number '))
 count = 0
 while number > 0:
     num_temp = number % 10

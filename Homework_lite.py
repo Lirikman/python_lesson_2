@@ -9,7 +9,7 @@ while b < 5:
 # 2. Пользователь в цикле вводит 10 цифр. Найти количество введенных пользователем цифр 5.
 count = 0
 for i in range(10):
-    numbers = int(input())
+    numbers = int(input('Enter any number '))
     if numbers == 5:
         count += 1
 print(count)
@@ -28,13 +28,13 @@ for i in range(1, 11):
 print(product)
 
 # 5. Вывести цифры числа на каждой строчке.
-number = int(input())
+number = int(input('Enter any number '))
 while number > 0:
     print(number % 10)
     number //= 10
 
 # 5.1 Вывести цифры числа на каждой строчке.
 # В этом варианте я использовал хитрость языка Python и вывел каждый символ как строковую переменную.
-number = input()
+number = input('Enter any number ')
 for i in range(len(number)):
     print(number[i])
